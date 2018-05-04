@@ -4,6 +4,7 @@ metadata:
   name: train-schedule-service
 spec:
   type: NodePort
+  nodePort: 80
   selector:
     app: train-schedule
   ports:
