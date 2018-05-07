@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: traiun-schedule-ingress
+  name: train-schedule-ingress
 spec:
   backend:
     serviceName: train-schedule-service
